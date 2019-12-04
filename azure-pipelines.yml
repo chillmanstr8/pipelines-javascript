@@ -20,3 +20,6 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
+- task: ManualIntervention@8
+  inputs:
+    instructions: 'Should all development work be stopped due to a catastrophic failure?'
